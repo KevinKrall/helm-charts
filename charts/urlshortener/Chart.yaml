@@ -1,0 +1,22 @@
+apiVersion: v2
+name: urlshortener
+description: Chart for urlshortener application
+type: application
+version: 0.1.0
+appVersion: edge
+keywords:
+  - URLShotener
+home: https://github.com/adfinis-sygroup/node-url-urlshortener
+type: application
+
+maintainers:
+  - name: adfinis-sygroup
+    email: support@adfinis.com
+    url: https://adfinis.com
+
+appVersion: "sha-a3d98af3"
+dependencies:
+  - name: postgresql
+    version: ~8.7.1
+    repository: https://charts.bitnami.com/bitnami
+    condition: postgresql.enabled

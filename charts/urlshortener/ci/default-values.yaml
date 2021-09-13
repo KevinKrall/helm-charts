@@ -1,0 +1,4 @@
+postgresql:
+  postgresqlPassword: urlshortener
+  persistence:
+    enabled: false
